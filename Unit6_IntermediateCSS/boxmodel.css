@@ -1,0 +1,19 @@
+p {
+	/* Content - Width and Height : Element itself*/
+	width: 50%;
+	height: 20px;
+
+	/* Padding : Space between the element and the border */
+	/*padding: 20px;*/	/* This makes all sides exactly same size */
+	padding-left: 40px;
+
+	/* Border : Border of the element */ 
+	border: 2px solid blue;
+
+	/* Margin : Space of outside of border*/
+	/*margin: 100px;*/
+	/*margin-top: 100px;*/
+	/*margin: 20px 40px 50px 30px;*/	/*Top Left Bottom Right*/
+	/*margin: 0 auto 0 auto;*/	/* It will center emelent in x coordinate for us */
+	margin: 0 auto;	/* Same as "0 auto 0 auto" || 0: top and bottom , auto: left and right*/
+}

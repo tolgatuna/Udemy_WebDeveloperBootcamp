@@ -1,0 +1,43 @@
+/* font-family */
+
+p {
+	font-family: font-family: 'BioRhyme Expanded', serif;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+/* font-size */
+h1 {
+	font-size: 75px;
+}
+
+p {
+	font-size: 20px;
+}
+
+span {	/* Make this span 2.0x of interior font (It means 20*2.0 = 40 px for inside of paragraph)*/
+	font-size: 2.0em;
+}
+
+/* font-weight */
+p {
+	font-weight: bold; /*bold or normal ... or give number between 100 - 800*/
+}
+
+/* line-height : space between lines */
+p {
+	line-height: 2;
+}
+
+/* text-aling : align of given element */
+h1 {
+	text-align: center; /* left-right-center... */
+}
+
+/* text-decoration */
+p {
+	text-decoration: underline;
+}
+
