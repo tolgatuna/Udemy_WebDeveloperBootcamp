@@ -1,0 +1,58 @@
+/* Element */
+li {
+
+}
+
+
+/* class */
+.hello {
+
+}
+
+
+/* id */ 
+#name {
+
+}
+
+
+/* Star : select everything on the page */
+*{
+	border: 1px solid lightgrey
+}
+
+
+/* Descendant Selector : Selects every element inside given element (Here all anchor tags which are inside li which are inside ul and on other example every hello class inside li)*/
+ul li a {
+	color: red;
+}
+
+li .hello {
+	background: green
+}
+
+
+/* Adjacent Selector : Selects every given element after given tag (Here we select every ul element after h4 item)*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+
+/* Attribute Selector : Selects every element with given attribute (Here we select every anchor tag for google and other example select text inputs)*/
+a[href="http://www.google.com"] {
+	background: lightblue
+}
+
+input[type="text"] {
+	background: darkblue
+}
+
+
+/*nth of type : Selects every n'th element of given (Every 3. li will be 25px (bigger than others in ul) and other example will select every even li element)*/
+li:nth-of-type(3) {
+	font-size: 45px;
+}
+
+li:nth-of-type(even) {
+	font-size: 35px;
+}

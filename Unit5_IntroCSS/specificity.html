@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+
+		/* 
+			Whatever style is closes this element will win. Order is not important while writing!. Here is the general rule
+
+			3 - Type Selectors 
+			li {
+	
+			}
+
+			li a {
+	
+			}
+
+			li + a {
+	
+			}
+
+			2 - Class, Attribute, and Pseudo-Class Selectors 
+			.hello {
+	
+			}
+
+			input[type="text"] {
+	
+			}
+
+			a:hover {
+	
+			}
+
+			input:checked {
+	
+			}
+
+			1 - ID Selectors (Most powerfull)
+			#special
+
+		*/
+		li {
+			color: Orange;
+		}
+
+		body {
+			color:red;
+		}
+
+		ul {
+			color: purple;
+		}
+
+		.highlight {
+			color: blue;
+		}
+
+		#special {
+			color: green;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<p>
+		HELLO!!!!!
+	</p>
+	<ul>
+		<li class="highlight" id="special">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+	background: orange;
+}
+
+/* ELEMENT SELECTOR */
+li {
+	border: 2px solid red;
+}
+
+/*ID SELECTING*/
+#special {
+	background-color: red;
+	color:yellow;
+}
+
+/* CLASS SELECTOR */
+.completed {
+	text-decoration: line-through;
+}
