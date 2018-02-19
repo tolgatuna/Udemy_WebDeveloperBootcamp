@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style type="text/css">
+		.pink {
+			border: 1px solid purple;
+			background: pink;
+		}
+		.blue {
+			height: 50px;
+			border: 1px dashed blue;
+			background: yellow;
+		}
+		.white {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<!-- =================================== -->
+	<!--              OBJECTIVES             -->
+	<!-- 1. Undestand Purpose of Grid System -->
+	<!-- 2. Undestand the different sizes    -->
+	<!-- 3. Write Nexted Grids               -->
+	<!-- =================================== -->
+	<div class="container">
+<!-- 		<div class="row">
+			<div class="col-lg-2 blue">
+				COL LG 2
+			</div>
+			<div class="col-lg-8 pink">
+				COL LG 8
+			</div>
+			<div class="col-lg-2 white">
+				COL LG 2
+			</div>
+		</div> -->
+
+<!-- 		<div class="row">
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+			<div class="col-lg-1 white"> COL LG 1 </div>
+		</div>
+ -->
+		<div class="row">
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-6 pink"> 
+				<div class="row">
+					<div class="col-lg-6 blue">FIRST HALF </div>
+					<div class="col-lg-6 blue">OTHER HALF </div>				
+				</div> 
+			</div>
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATE </div>
+			<div class="col-md-3 col-sm-6 pink"> 
+				<div class="row">
+					<div class="col-lg-2 blue"></div>
+					<div class="col-lg-2 blue"></div>
+					<div class="col-lg-2 blue"></div>
+					<div class="col-lg-2 blue"></div>
+					<div class="col-lg-2 blue"></div>
+					<div class="col-lg-2 blue"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
