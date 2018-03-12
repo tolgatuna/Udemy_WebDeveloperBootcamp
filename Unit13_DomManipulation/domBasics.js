@@ -22,8 +22,6 @@ setInterval(function() {
         isBlue = true;
     }
 }, 1000);
-
-// Ex 3 - 
 // -----------------------------
 
 
@@ -62,3 +60,41 @@ document.querySelectorAll('h1'); // Select all h1 elements and returns an array.
 var tag = document.querySelectorAll('.bolded'); // Select all elements with have class bolded
 // Not: it is also possible with select id ('#')i but it just return a value in a array. So not useful.
 // -----------------------------
+
+
+// --     DOM Selectors & Manipulate:     --
+// Select : 
+var tag = document.getElementById('highlight');
+
+// Manipulate Style : 
+tag.style.color = "blue";
+tag.style.border = "10px solid red";
+tag.style.fontSize = "70px";
+tag.style.background = "yellow";
+tag.style.marginTop = "200px";
+
+// Add/Remove toggle some class : 
+tag.classList.add("some-class"); 
+tag.classList.remove("another-class");
+tag.classList.toggle("another-class");  // If class is exist remove it, else if class doesnt exist add that class the selected element.
+
+// Manipulating Text & Content :
+var tag = document.querySelector("p");
+console.log("Current Text : ", tag.textContent);
+console.log("Current Text : ", tag.innerHTML);
+tag.textContent = "blah blah blah";
+
+var tag = document.querySelector("ul");
+console.log("Current Text : ", tag.textContent);    //Print all "li" texts inside ul
+console.log("Current Text : ", tag.innerHTML);
+tag.innerHTML = "<li>Test 1</li><li>Test 2</li><li>Test 3</li>" // innerHTML can render html tags
+
+// Manipulating Attributes : 
+var link = document.querySelector("a");
+console.log("Current href : ", link.getAttribute("href"));
+link.setAttribute("href", "https://www.facebook.com");
+
+var img  = document.querySelector("img");
+img.setAttribute("src", "corgi.png");
+img.setAttribute("alt", "corgi dog image.");
+// -----------------------------------------0
