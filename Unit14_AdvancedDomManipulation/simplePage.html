@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+            .some-class {
+                border: 10px solid red;
+                background: yellow;
+            }
+            .another-class {
+                background: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <h1>Goodbye</h1>
+        
+        <p>This is an <strong>awesome</strong> paragraph</p>
+        <a href="https://www.google.com">I am a link</a>
+        <img src="https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+        <ul>
+            <li id="highlight">Item 1</li>
+            <li class="bolded">Item 2</li>
+            <li class="bolded">Item 3</li>
+        </ul>
+        
+        <script>
+            /*Listeners for h1*/
+            var h1 = document.querySelector("h1");
+            h1.addEventListener("click", function() {
+               alert("H1 Clicked!")
+            });
+            h1.addEventListener("click", function() {
+               h1.style.color = "blue" ;
+            });
+            /*Listener for li's*/
+            var lis = document.querySelectorAll("li");
+            for(var i = 0 ; i < lis.length ; i++) {
+                lis[i].addEventListener("click", function() {
+                   this.style.textDecoration = "line-through";
+                });
+            }
+        </script>
+    </body>
+</html>
