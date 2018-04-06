@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<link rel="stylesheet" href="app.css">
+
+<h1>You fall in love with : <%= thingVar.toUpperCase() %> </h1>
+
+<% if(thingVar.toLowerCase() === "test") { %>
+	<p>TEST CODE IS WORKED</p>
+<% } else { %>
+	<p>NORMAL CODE IS WORKED</p>
+<% } %>
+
+<p> P.S. this is an EJS file (love.ejs). </P>
+
+<% include partials/footer %>
