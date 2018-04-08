@@ -1,0 +1,14 @@
+{
+  "name": "introtoapi",
+  "version": "1.0.0",
+  "description": "Introduction to API",
+  "main": "first_request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tolga TUNA",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
