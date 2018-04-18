@@ -10,3 +10,4 @@
 * find -> Select
 * update
 * remove
+* db.collections.drop() -> Drop the selected collection
