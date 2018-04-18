@@ -1,0 +1,14 @@
+{
+  "name": "unit27_databases",
+  "version": "1.0.0",
+  "description": "Unit 27 - Databases - Example of Usage Mongoose",
+  "main": "cats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tolga TUNA",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.15"
+  }
+}
